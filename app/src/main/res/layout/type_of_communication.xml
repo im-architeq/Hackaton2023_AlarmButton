@@ -7,33 +7,53 @@
     android:fitsSystemWindows="true"
     tools:context=".TypeOfCommunicationActivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button_sign_language"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint ="@android:color/holo_red_dark"
-        android:text="@string/sign_language" />
-    <Button
-        android:id="@+id/button_phone_call"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint ="@android:color/holo_red_dark"
-        android:text="@string/phone" />
-    <Button
-        android:id="@+id/button_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint ="@android:color/holo_red_dark"
-        android:text="@string/text_message" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wie willst du kommunizieren?"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
 
+        <Button
+            android:id="@+id/button_sign_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#98FB98"
+            android:text="@string/sign_language"
+            android:drawableStart="@android:drawable/ic_dialog_info"
+            android:drawablePadding="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_phone_call"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#98FB98"
+                android:text="@string/phone" />
+
+            <Button
+                android:id="@+id/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#98FB98"
+                android:text="@string/text_message" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
