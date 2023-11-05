@@ -51,6 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#98FB98"
+                android:drawableLeft="@drawable/baseline_check_24"
                 android:text="Ja" />
 
             <Button
@@ -59,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#98FB98"
+                android:drawableLeft="@drawable/baseline_clear_24"
                 android:text="Nein" />
         </LinearLayout>
 
@@ -67,13 +69,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#808080"
-            android:text="Ich weiß es nicht" />
+            android:drawableLeft="@drawable/baseline_question_mark_24"
+            android:text="Ich weiss es nicht" />
 
         <Button
             android:id="@+id/button_call_in_sign_language"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FF0000"
+            android:drawableLeft="@drawable/baseline_phone_enabled_24"
             android:text="Jetzt in Gebärdensprache anrufen" />
 
         <!-- Rest of your UI elements -->

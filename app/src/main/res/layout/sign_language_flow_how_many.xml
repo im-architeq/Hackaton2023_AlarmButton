@@ -34,6 +34,7 @@
                 android:layout_weight="1"
                 android:text="1 Person"
                 android:id="@+id/button_1_person"
+                android:drawableLeft="@drawable/baseline_person_24"
                 android:backgroundTint="#98FB98" />
 
             <Button
@@ -42,6 +43,7 @@
                 android:layout_weight="1"
                 android:text="2 Personen"
                 android:id="@+id/button_2_personen"
+                android:drawableLeft="@drawable/baseline_group_24"
                 android:backgroundTint="#98FB98" />
         </LinearLayout>
 
@@ -57,14 +59,16 @@
                 android:layout_weight="1"
                 android:text="3+ Personen"
                 android:id="@+id/button_3_plus_personen"
+                android:drawableLeft="@drawable/baseline_group_add_24"
                 android:backgroundTint="#98FB98" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Ich weiß es nicht"
+                android:text="Ich weiss es nicht"
                 android:id="@+id/button_dont_know"
+                android:drawableLeft="@drawable/baseline_question_mark_24"
                 android:backgroundTint="#808080" />
         </LinearLayout>
 
@@ -72,6 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button_call_in_sign_language"
+            android:drawableLeft="@drawable/baseline_phone_enabled_24"
             android:backgroundTint="#FF0000"
             android:text="Jetzt in Gebärdensprache anrufen" />
     </LinearLayout>

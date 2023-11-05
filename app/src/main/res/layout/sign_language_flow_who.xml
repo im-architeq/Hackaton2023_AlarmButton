@@ -33,6 +33,7 @@
                 android:layout_weight="1"
                 android:text="Ich"
                 android:id="@+id/button_myself"
+                android:drawableLeft="@drawable/baseline_how_to_reg_24"
                 android:backgroundTint="#98FB98" />
 
             <Button
@@ -41,6 +42,7 @@
                 android:layout_weight="1"
                 android:text="Jemand anderes"
                 android:id="@+id/button_someone_else"
+                android:drawableLeft="@drawable/baseline_diversity_3_24"
                 android:backgroundTint="#98FB98" />
         </LinearLayout>
 
@@ -55,7 +57,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#808080"
-                android:text="Ich weiß es nicht" />
+                android:drawableLeft="@drawable/baseline_question_mark_24"
+                android:text="Ich weiss es nicht" />
         </LinearLayout>
 
         <Button
@@ -64,6 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:backgroundTint="#FF0000"
+            android:drawableLeft="@drawable/baseline_phone_enabled_24"
             android:text="Jetzt in Gebärdensprache anrufen" />
 
     </LinearLayout>

@@ -32,6 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Foto"
+                android:drawableLeft="@drawable/baseline_photo_camera_24"
                 android:backgroundTint="#808080" />
             <Button
                 android:id="@+id/button_text"
@@ -39,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Text"
+                android:drawableLeft="@drawable/baseline_edit_note_24"
                 android:backgroundTint="#808080" />
         </LinearLayout>
 
@@ -48,6 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:backgroundTint="#FF0000"
+            android:drawableLeft="@drawable/baseline_phone_enabled_24"
             android:text="Jetzt in Gebärdensprache anrufen" />
 
     </LinearLayout>

@@ -29,8 +29,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#98FB98"
             android:text="@string/sign_language"
-            android:drawableStart="@android:drawable/ic_dialog_info"
-            android:drawablePadding="8dp" />
+            android:drawableLeft="@drawable/baseline_waving_hand_24"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -43,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#98FB98"
+                android:drawableLeft="@drawable/baseline_phone_enabled_24"
                 android:text="@string/phone" />
 
             <Button
@@ -51,6 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#98FB98"
+                android:drawableLeft="@drawable/baseline_chat_24"
                 android:text="@string/text_message" />
 
         </LinearLayout>
