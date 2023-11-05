@@ -23,6 +23,12 @@
         <activity
             android:name=".TypeOfCommunicationActivity"
             android:label="@string/app_name" />
+        <activity
+            android:name=".SignLanguageFlowWhatActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".SignLanguageFlowWhereActivity"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

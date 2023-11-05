@@ -5,7 +5,7 @@
     <string name="sign">Previous</string>
 
     <string name="sign_language">Gebärdensprache</string>
-    <string name="phone">Telefonanruf</string>
-    <string name="text_message">Textnachricht</string>
+    <string name="phone">Telefon</string>
+    <string name="text_message">Text</string>
 
 </resources>

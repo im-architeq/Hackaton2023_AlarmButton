@@ -1,5 +1,6 @@
 package com.example.hackaton2023_alarmbutton
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -26,6 +27,10 @@ class TypeOfCommunicationActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
 
+        binding.buttonSignLanguage.setOnClickListener { view ->
+            val signLanguageFlowWhatActivity = Intent(this, SignLanguageFlowWhatActivity::class.java)
+            view.context.startActivity(signLanguageFlowWhatActivity)
+        }
 
         binding.buttonText.setOnClickListener { view ->
             Snackbar.make(view, "Make a text message", Snackbar.LENGTH_LONG)

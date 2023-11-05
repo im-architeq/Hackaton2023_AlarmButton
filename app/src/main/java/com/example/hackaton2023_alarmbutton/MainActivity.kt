@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
         binding.buttonFirst.setOnClickListener { view ->
             val typeOfCommunicationActivity = Intent(this, TypeOfCommunicationActivity::class.java)
             view.context.startActivity(typeOfCommunicationActivity)
-
         }
     }
 
