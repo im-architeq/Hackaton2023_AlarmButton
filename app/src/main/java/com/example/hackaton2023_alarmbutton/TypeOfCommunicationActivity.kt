@@ -21,16 +21,11 @@ class TypeOfCommunicationActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
 
-
         binding.buttonSignLanguage.setOnClickListener { view ->
-            Snackbar.make(view, "Make a signing session", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            val whatActivity = Intent(this, SignLanguageFlowWhatActivity::class.java)
+            view.context.startActivity(whatActivity)
         }
 
-        binding.buttonSignLanguage.setOnClickListener { view ->
-            val signLanguageFlowWhatActivity = Intent(this, SignLanguageFlowWhatActivity::class.java)
-            view.context.startActivity(signLanguageFlowWhatActivity)
-        }
 
         binding.buttonText.setOnClickListener { view ->
             Snackbar.make(view, "Make a text message", Snackbar.LENGTH_LONG)
